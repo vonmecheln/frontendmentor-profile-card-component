@@ -1,0 +1,114 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.img-bg{
+    border: 0 none;
+    margin: 0;
+    outline: 0px;
+}
+
+#img-bg-top{
+    background-image: url(images/bg-pattern-top.svg);
+    width: 50%;
+    height: 100vh;
+
+    background-position-x: -248px;
+    background-position-y: -638px;
+    background-repeat: no-repeat;
+
+    float:left;
+    border: 0 none;
+
+}
+
+#img-bg-bottom{
+    background-image: url(images/bg-pattern-bottom.svg);
+    width: 50%;
+    height: 100vh;
+    
+    background-position-y: 380px;
+    background-repeat: no-repeat;
+
+    float:right;    
+}
+
+#card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-content{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#card-topo{
+    background-image: url(images/bg-pattern-card.svg);
+    width: 350px;
+    height: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#card-avatar{
+    background-image: url(images/image-victor.jpg);
+    width: 96px;
+    height: 96px;
+
+    border-radius: 48px;
+    border: 5px solid white;
+    margin: -48px auto;
+
+}
+
+#card-spacer{
+    height: 48px; 
+}
+
+.card-indicator{
+    
+    width: 32%;
+    display: inline-block;
+    height: 50px;
+
+}
+
+.card-indicator p {
+    font-size: 0.8em;
+}
+
+.card-indicator strong {
+    font-size: 1.2em;
+}
+
+
+
+.cor1{
+    background-color: hsl(185, 75%, 39%);
+}
+
+.cor2{
+    background-color: hsl(229, 23%, 23%);
+}
+
+.cor3{
+    background-color: hsl(227, 10%, 46%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
